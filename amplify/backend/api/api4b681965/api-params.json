@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "mmisbd3ee38e",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "api4b681965",
+    "apiName": "api4b681965",
+    "functionArns": [
+        {
+            "lambdaFunction": "mmisbd3ee38e"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-mmis-dev-133051-authRole",
+        "unAuthRoleName": "amplify-mmis-dev-133051-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mmisbd3ee38e",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

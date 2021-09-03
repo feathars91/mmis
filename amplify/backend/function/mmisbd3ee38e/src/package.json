@@ -1,0 +1,22 @@
+{
+  "name": "mmisbd3ee38e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.17.1",
+    "datatables.net-editor-server": "^1.9.6",
+    "express": "^4.15.3",
+    "express-busboy": "^6.0.1",
+    "knex": "^0.14.0",
+    "pg": "^7.4.0",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
